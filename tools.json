@@ -1,58 +1,474 @@
 [
   {
-    "name": "justinnews.tech",
-    "category": "News",
-    "description": "An independent news site, built and run solo.",
-    "url": "https://justinnews.tech",
-    "status": "live",
-    "icon": "NEWS"
-  },
-  {
-    "name": "informedmedia.me",
-    "category": "News",
-    "description": "A second independent media project, including a Reader Revenue Manager integration.",
-    "url": "https://informedmedia.me",
-    "status": "live",
-    "icon": "NEWS"
-  },
-  {
-    "name": "Informed",
-    "category": "Apps",
-    "description": "RSS news aggregator for Android with a web companion and on-device text-to-speech briefings.",
-    "url": "",
-    "status": "coming soon",
-    "icon": "APP"
-  },
-  {
-    "name": "TicketStub",
-    "category": "Apps",
-    "description": "Turn event tickets into a photo-based memory keeper. No ads.",
-    "url": "",
-    "status": "coming soon",
-    "icon": "APP"
-  },
-  {
     "name": "PDF Compressor",
     "category": "PDF",
-    "description": "Shrink PDF file size in the browser before emailing or uploading, without touching a server.",
-    "url": "",
-    "status": "coming soon",
+    "description": "Compress PDF files to reduce their size for emails and uploads.",
+    "url": "https://www.adobe.com/acrobat/online/compress-pdf.html",
+    "status": "live",
     "icon": "PDF"
+  },
+  {
+    "name": "Merge PDF",
+    "category": "PDF",
+    "description": "Combine multiple PDF files into a single document.",
+    "url": "https://www.adobe.com/acrobat/online/merge-pdf.html",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "PDF to Word",
+    "category": "PDF",
+    "description": "Convert PDF documents into editable Word files.",
+    "url": "https://www.adobe.com/acrobat/online/pdf-to-word.html",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "PDF to JPG",
+    "category": "PDF",
+    "description": "Convert PDF pages into JPG images.",
+    "url": "https://www.adobe.com/acrobat/online/pdf-to-jpg.html",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "Word to PDF",
+    "category": "PDF",
+    "description": "Convert Word documents into PDF files.",
+    "url": "https://www.adobe.com/acrobat/online/word-to-pdf.html",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "Excel to PDF",
+    "category": "PDF",
+    "description": "Convert Excel spreadsheets into PDF documents.",
+    "url": "https://www.adobe.com/acrobat/online/excel-to-pdf.html",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "PPT to PDF",
+    "category": "PDF",
+    "description": "Convert PowerPoint presentations into PDF files.",
+    "url": "https://www.adobe.com/acrobat/online/ppt-to-pdf.html",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "Image Compressor",
+    "category": "Image",
+    "description": "Reduce image file size while maintaining useful image quality.",
+    "url": "https://tinypng.com/",
+    "status": "live",
+    "icon": "IMG"
   },
   {
     "name": "Image Resizer",
     "category": "Image",
-    "description": "Resize and re-export images to exact pixel dimensions for uploads that reject oversized files.",
-    "url": "",
-    "status": "coming soon",
+    "description": "Resize images to specific dimensions.",
+    "url": "https://www.iloveimg.com/resize-image",
+    "status": "live",
     "icon": "IMG"
+  },
+  {
+    "name": "Image Cropper",
+    "category": "Image",
+    "description": "Crop images to the exact area and aspect ratio you need.",
+    "url": "https://www.iloveimg.com/crop-image",
+    "status": "live",
+    "icon": "IMG"
+  },
+  {
+    "name": "JPG to PNG",
+    "category": "Image",
+    "description": "Convert JPG images into PNG format.",
+    "url": "https://convertio.co/jpg-png/",
+    "status": "live",
+    "icon": "IMG"
+  },
+  {
+    "name": "PNG to JPG",
+    "category": "Image",
+    "description": "Convert PNG images into JPG format.",
+    "url": "https://convertio.co/png-jpg/",
+    "status": "live",
+    "icon": "IMG"
+  },
+  {
+    "name": "WebP Converter",
+    "category": "Image",
+    "description": "Convert images to and from the WebP format.",
+    "url": "https://convertio.co/webp-converter/",
+    "status": "live",
+    "icon": "IMG"
+  },
+  {
+    "name": "HEIC to JPG",
+    "category": "Image",
+    "description": "Convert HEIC photos into widely supported JPG images.",
+    "url": "https://heictojpg.com/",
+    "status": "live",
+    "icon": "IMG"
+  },
+  {
+    "name": "Background Remover",
+    "category": "Image",
+    "description": "Remove backgrounds from images automatically.",
+    "url": "https://www.remove.bg/",
+    "status": "live",
+    "icon": "IMG"
+  },
+  {
+    "name": "QR Code Generator",
+    "category": "Generator",
+    "description": "Create QR codes for URLs, text and other information.",
+    "url": "https://www.qr-code-generator.com/",
+    "status": "live",
+    "icon": "QR"
+  },
+  {
+    "name": "QR Code Scanner",
+    "category": "QR",
+    "description": "Scan and read QR codes directly from your browser.",
+    "url": "https://webqr.com/",
+    "status": "live",
+    "icon": "QR"
   },
   {
     "name": "Word Counter",
     "category": "Text",
-    "description": "Live word, character, and reading-time counts for essays, captions, and reports.",
-    "url": "",
-    "status": "coming soon",
+    "description": "Count words, characters and sentences in your text.",
+    "url": "https://wordcounter.net/",
+    "status": "live",
     "icon": "TXT"
+  },
+  {
+    "name": "Character Counter",
+    "category": "Text",
+    "description": "Count characters and words in text instantly.",
+    "url": "https://charactercounter.com/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "Case Converter",
+    "category": "Text",
+    "description": "Convert text between uppercase, lowercase and title case.",
+    "url": "https://convertcase.net/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "Lorem Ipsum Generator",
+    "category": "Text",
+    "description": "Generate placeholder text for websites and designs.",
+    "url": "https://www.lipsum.com/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "JSON Formatter",
+    "category": "Developer",
+    "description": "Format, validate and beautify JSON data.",
+    "url": "https://jsonformatter.curiousconcept.com/",
+    "status": "live",
+    "icon": "JSON"
+  },
+  {
+    "name": "JSON Viewer",
+    "category": "Developer",
+    "description": "View and explore JSON data in a readable structure.",
+    "url": "https://jsonviewer.stack.hu/",
+    "status": "live",
+    "icon": "JSON"
+  },
+  {
+    "name": "JSON to CSV",
+    "category": "Developer",
+    "description": "Convert JSON data into CSV format.",
+    "url": "https://www.convertcsv.com/json-to-csv.htm",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "Base64 Encoder",
+    "category": "Developer",
+    "description": "Encode text and data into Base64 format.",
+    "url": "https://www.base64encode.org/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "Base64 Decoder",
+    "category": "Developer",
+    "description": "Decode Base64 encoded strings back into readable data.",
+    "url": "https://www.base64decode.org/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "URL Encoder",
+    "category": "Developer",
+    "description": "Encode URLs and query parameters safely.",
+    "url": "https://www.urlencoder.org/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "URL Decoder",
+    "category": "Developer",
+    "description": "Decode URL-encoded strings.",
+    "url": "https://www.urldecoder.org/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "UUID Generator",
+    "category": "Developer",
+    "description": "Generate random UUID identifiers.",
+    "url": "https://www.uuidgenerator.net/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "Regex Tester",
+    "category": "Developer",
+    "description": "Test regular expressions against sample text.",
+    "url": "https://regex101.com/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "JWT Decoder",
+    "category": "Developer",
+    "description": "Decode and inspect JSON Web Tokens.",
+    "url": "https://jwt.io/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "Markdown Editor",
+    "category": "Developer",
+    "description": "Write and preview Markdown content.",
+    "url": "https://dillinger.io/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "HTML Formatter",
+    "category": "Developer",
+    "description": "Beautify and format HTML source code.",
+    "url": "https://www.freeformatter.com/html-formatter.html",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "XML Formatter",
+    "category": "Developer",
+    "description": "Format and beautify XML documents.",
+    "url": "https://www.freeformatter.com/xml-formatter.html",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "SQL Formatter",
+    "category": "Developer",
+    "description": "Format SQL queries for improved readability.",
+    "url": "https://www.dpriver.com/pp/landing",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "Diff Checker",
+    "category": "Developer",
+    "description": "Compare two pieces of text and highlight differences.",
+    "url": "https://www.diffchecker.com/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "Color Picker",
+    "category": "Design",
+    "description": "Pick colors and copy their HEX and RGB values.",
+    "url": "https://htmlcolorcodes.com/color-picker/",
+    "status": "live",
+    "icon": "COLOR"
+  },
+  {
+    "name": "Color Converter",
+    "category": "Design",
+    "description": "Convert colors between HEX, RGB and other formats.",
+    "url": "https://www.colorhexa.com/",
+    "status": "live",
+    "icon": "COLOR"
+  },
+  {
+    "name": "Gradient Generator",
+    "category": "Design",
+    "description": "Create CSS gradients for websites and designs.",
+    "url": "https://cssgradient.io/",
+    "status": "live",
+    "icon": "DESIGN"
+  },
+  {
+    "name": "Password Generator",
+    "category": "Security",
+    "description": "Generate strong random passwords.",
+    "url": "https://passwordsgenerator.net/",
+    "status": "live",
+    "icon": "SEC"
+  },
+  {
+    "name": "Hash Generator",
+    "category": "Security",
+    "description": "Generate hashes from text using common algorithms.",
+    "url": "https://emn178.github.io/online-tools/sha256.html",
+    "status": "live",
+    "icon": "SEC"
+  },
+  {
+    "name": "Unix Timestamp Converter",
+    "category": "Developer",
+    "description": "Convert Unix timestamps into readable dates and times.",
+    "url": "https://www.unixtimestamp.com/",
+    "status": "live",
+    "icon": "TIME"
+  },
+  {
+    "name": "Cron Expression Generator",
+    "category": "Developer",
+    "description": "Create and understand cron scheduling expressions.",
+    "url": "https://crontab.guru/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "Regex Generator",
+    "category": "Developer",
+    "description": "Build and test regular expression patterns.",
+    "url": "https://regex101.com/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "HTML Entity Encoder",
+    "category": "Developer",
+    "description": "Encode special characters as HTML entities.",
+    "url": "https://www.freeformatter.com/html-entities.html",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "URL Parser",
+    "category": "Developer",
+    "description": "Break URLs into their individual components.",
+    "url": "https://www.url-parse.com/",
+    "status": "live",
+    "icon": "DEV"
+  },
+  {
+    "name": "Image to PDF",
+    "category": "PDF",
+    "description": "Convert JPG and other images into PDF documents.",
+    "url": "https://www.ilovepdf.com/jpg_to_pdf",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "Split PDF",
+    "category": "PDF",
+    "description": "Split selected pages from a PDF into separate files.",
+    "url": "https://www.ilovepdf.com/split_pdf",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "Rotate PDF",
+    "category": "PDF",
+    "description": "Rotate PDF pages to the correct orientation.",
+    "url": "https://www.ilovepdf.com/rotate_pdf",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "PDF to JPG",
+    "category": "PDF",
+    "description": "Turn PDF pages into JPG images.",
+    "url": "https://www.ilovepdf.com/pdf_to_jpg",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "JPG to PDF",
+    "category": "PDF",
+    "description": "Combine JPG images into a PDF document.",
+    "url": "https://www.ilovepdf.com/jpg_to_pdf",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "PDF Unlocker",
+    "category": "PDF",
+    "description": "Remove PDF restrictions when you have the necessary permission.",
+    "url": "https://www.ilovepdf.com/unlock_pdf",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "PDF Watermark",
+    "category": "PDF",
+    "description": "Add a watermark to PDF documents.",
+    "url": "https://www.ilovepdf.com/watermark_pdf",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "Image Watermark",
+    "category": "Image",
+    "description": "Add watermarks to images online.",
+    "url": "https://www.iloveimg.com/watermark-image",
+    "status": "live",
+    "icon": "IMG"
+  },
+  {
+    "name": "Image Editor",
+    "category": "Image",
+    "description": "Make quick edits to images directly in your browser.",
+    "url": "https://www.photopea.com/",
+    "status": "live",
+    "icon": "IMG"
+  },
+  {
+    "name": "Screenshot Tool",
+    "category": "Productivity",
+    "description": "Capture and annotate screenshots online.",
+    "url": "https://app.screely.com/",
+    "status": "live",
+    "icon": "SCREEN"
+  },
+  {
+    "name": "Text Diff Checker",
+    "category": "Text",
+    "description": "Compare two text blocks and find changes.",
+    "url": "https://www.diffchecker.com/text-compare/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "Reading Time Calculator",
+    "category": "Text",
+    "description": "Estimate how long it takes to read a piece of text.",
+    "url": "https://www.readinglength.com/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "Image Metadata Viewer",
+    "category": "Image",
+    "description": "Inspect metadata embedded in image files.",
+    "url": "https://jimpl.com/",
+    "status": "live",
+    "icon": "IMG"
   }
 ]
