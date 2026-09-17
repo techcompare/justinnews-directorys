@@ -4,53 +4,79 @@ async function loadJSON(path) {
   return res.json();
 }
 
-function toolRow(tool) {
+function toolCard(tool) {
   const a = document.createElement('a');
   const isLive = (tool.status || 'live').toLowerCase() === 'live';
-  a.className = 'tool-row' + (isLive ? '' : ' coming');
+  a.className = 'tool-card' + (isLive ? '' : ' coming');
   a.href = isLive ? tool.url : '#';
   if (isLive) {
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
   }
   a.dataset.category = tool.category;
+  a.dataset.search = (tool.name + ' ' + tool.description + ' ' + tool.category).toLowerCase();
 
   a.innerHTML = `
-    <div class="tool-icon">${tool.icon || tool.category.slice(0, 3).toUpperCase()}</div>
-    <div class="tool-body">
-      <h3>${tool.name}</h3>
-      <p>${tool.description}</p>
+    <div class="tool-card-top">
+      <div class="tool-icon">${tool.icon || tool.category.slice(0, 3).toUpperCase()}</div>
+      <span class="tool-badge ${isLive ? 'live' : 'soon'}">${isLive ? 'Live' : 'Coming soon'}</span>
     </div>
-    <div class="tool-meta">
-      <span class="tool-cat">${tool.category}</span>
-      <span class="tool-open">${isLive ? 'Open tool' : 'Coming soon'}</span>
-    </div>
+    <h3>${tool.name}</h3>
+    <p>${tool.description}</p>
+    <span class="tool-cta">${isLive ? 'Open tool \u2192' : 'Not live yet'}</span>
   `;
   return a;
 }
 
+function renderCategoryCards(tools) {
+  const grid = document.getElementById('category-grid');
+  if (!grid) return;
+  const counts = {};
+  tools.forEach((t) => { counts[t.category] = (counts[t.category] || 0) + 1; });
+
+  grid.innerHTML = '';
+  Object.entries(counts).forEach(([cat, count]) => {
+    const btn = document.createElement('button');
+    btn.className = 'category-card';
+    btn.innerHTML = `<span class="cat-name">${cat}</span><span class="cat-count">${count} tool${count === 1 ? '' : 's'}</span>`;
+    btn.addEventListener('click', () => {
+      document.getElementById('tools').scrollIntoView({ behavior: 'smooth' });
+      selectFilterByLabel(cat);
+    });
+    grid.appendChild(btn);
+  });
+}
+
+let filterBarEl;
+
 function renderFilters(categories, onSelect) {
-  const bar = document.getElementById('filters');
-  bar.innerHTML = '';
+  filterBarEl = document.getElementById('filters');
+  filterBarEl.innerHTML = '';
   const all = document.createElement('button');
   all.className = 'filter-btn active';
   all.textContent = 'All tools';
   all.addEventListener('click', () => selectFilter(all));
-  bar.appendChild(all);
+  filterBarEl.appendChild(all);
 
   categories.forEach((cat) => {
     const btn = document.createElement('button');
     btn.className = 'filter-btn';
     btn.textContent = cat;
     btn.addEventListener('click', () => selectFilter(btn));
-    bar.appendChild(btn);
+    filterBarEl.appendChild(btn);
   });
 
   function selectFilter(activeBtn) {
-    [...bar.children].forEach((b) => b.classList.remove('active'));
+    [...filterBarEl.children].forEach((b) => b.classList.remove('active'));
     activeBtn.classList.add('active');
     onSelect(activeBtn.textContent === 'All tools' ? null : activeBtn.textContent);
   }
+}
+
+function selectFilterByLabel(label) {
+  if (!filterBarEl) return;
+  const btn = [...filterBarEl.children].find((b) => b.textContent === label);
+  if (btn) btn.click();
 }
 
 function applyConfig(config) {
@@ -68,8 +94,8 @@ function applyConfig(config) {
 }
 
 async function init() {
-  const listEl = document.getElementById('tool-list');
-  if (!listEl) return; // page without a tool list (about/privacy)
+  const gridEl = document.getElementById('tool-grid');
+  if (!gridEl) return; // page without a tool grid (about/contact/privacy/terms)
 
   try {
     const [config, tools] = await Promise.all([
@@ -81,29 +107,50 @@ async function init() {
     const liveCount = tools.filter((t) => (t.status || 'live').toLowerCase() === 'live').length;
     const categories = [...new Set(tools.map((t) => t.category))];
 
-    document.getElementById('stat-tool-count').textContent = liveCount;
-    document.getElementById('stat-cat-count').textContent = categories.length;
+    const statTool = document.getElementById('stat-tool-count');
+    const statCat = document.getElementById('stat-cat-count');
+    if (statTool) statTool.textContent = liveCount;
+    if (statCat) statCat.textContent = categories.length;
 
-    listEl.innerHTML = '';
-    tools.forEach((tool) => listEl.appendChild(toolRow(tool)));
+    gridEl.innerHTML = '';
+    tools.forEach((tool) => gridEl.appendChild(toolCard(tool)));
+
+    renderCategoryCards(tools);
 
     const emptyState = document.getElementById('empty-state');
+    let activeCategory = null;
+    let activeQuery = '';
 
-    renderFilters(categories, (category) => {
+    function applyFilters() {
       let visible = 0;
-      [...listEl.children].forEach((row) => {
-        const match = !category || row.dataset.category === category;
-        row.classList.toggle('is-hidden', !match);
+      [...gridEl.children].forEach((card) => {
+        const matchesCategory = !activeCategory || card.dataset.category === activeCategory;
+        const matchesQuery = !activeQuery || card.dataset.search.includes(activeQuery);
+        const match = matchesCategory && matchesQuery;
+        card.classList.toggle('is-hidden', !match);
         if (match) visible += 1;
       });
-      emptyState.style.display = visible === 0 ? 'block' : 'none';
+      if (emptyState) emptyState.style.display = visible === 0 ? 'block' : 'none';
+    }
+
+    renderFilters(categories, (category) => {
+      activeCategory = category;
+      applyFilters();
     });
+
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        activeQuery = e.target.value.trim().toLowerCase();
+        applyFilters();
+      });
+    }
   } catch (err) {
-    listEl.innerHTML = `<p class="empty-state">Couldn't load tools right now. (${err.message})</p>`;
+    gridEl.innerHTML = `<p class="empty-state">Couldn't load tools right now. (${err.message})</p>`;
   }
 }
 
-// Sitewide config also applies on non-listing pages (about/privacy) for the header/footer
+// Sitewide config also applies on non-listing pages (about/contact/privacy/terms)
 async function initChrome() {
   try {
     const config = await loadJSON('config.json');
@@ -115,5 +162,5 @@ async function initChrome() {
 
 document.addEventListener('DOMContentLoaded', () => {
   init();
-  if (!document.getElementById('tool-list')) initChrome();
+  if (!document.getElementById('tool-grid')) initChrome();
 });

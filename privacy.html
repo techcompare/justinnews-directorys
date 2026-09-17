@@ -19,7 +19,14 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a href="index.html" class="brand" data-site-name>Daily Tools HQ</a>
+    <a href="index.html" class="brand">
+      <span class="mark">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 16 h14 a17 17 0 0 1 0 34 h-14 z" stroke="#e8a23d" stroke-width="6.5" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span data-site-name>Daily Tools HQ</span>
+    </a>
     <nav class="site-nav">
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
@@ -92,20 +99,42 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <p data-footer-note>New tools ship regularly. Suggestions welcome by email.</p>
-    <nav>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html">Terms</a>
-      <a data-github-url href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </nav>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4 data-site-name>Daily Tools HQ</h4>
+        <p data-hero-desc>Free browser-based tools for PDFs, images, and everyday text work — no installs, no sign-ups, no nonsense.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#tools">All tools</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+          <li><a data-github-url href="#" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-footer-note>New tools ship regularly. Suggestions welcome by email.</p>
+      <p>&copy; <span class="footer-year"></span> <span data-site-name>Daily Tools HQ</span></p>
+    </div>
   </div>
 </footer>
 
 <script src="script.js"></script>
 <script>
+  document.querySelectorAll('.footer-year').forEach(el => el.textContent = new Date().getFullYear());
+  <script>
   document.getElementById('last-updated').textContent = new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
+</script>
 </script>
 </body>
 </html>
