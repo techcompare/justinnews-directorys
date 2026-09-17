@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --ink: #14161c;
+  --surface: #1b1e27;
+  --surface-raised: #22252f;
+  --line: #33374300;
+  --line-solid: #34384333;
+  --text: #f2f0ea;
+  --text-muted: #9a9ca8;
+  --amber: #e8a23d;
+  --amber-dim: #a97730;
+  --teal: #4fb3a9;
+  --radius: 4px;
+  --max-width: 880px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--text);
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Header ---------- */
+
+header.site-header {
+  border-bottom: 1px solid var(--line-solid);
+  background:
+    linear-gradient(var(--ink), var(--ink)) padding-box,
+    repeating-linear-gradient(
+      to right,
+      #ffffff08 0,
+      #ffffff08 1px,
+      transparent 1px,
+      transparent 64px
+    ) border-box;
+}
+
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.brand {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+nav.site-nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-left: 28px;
+  transition: color 0.15s ease;
+}
+
+nav.site-nav a:hover,
+nav.site-nav a:focus-visible {
+  color: var(--text);
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+  padding: 72px 0 56px;
+}
+
+.hero h1 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 600;
+  font-size: clamp(2.1rem, 4.5vw, 3.1rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  margin: 0 0 20px;
+  max-width: 14ch;
+}
+
+.hero p.lede {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 52ch;
+  margin: 0 0 32px;
+}
+
+.stat-row {
+  display: flex;
+  gap: 40px;
+  border-top: 1px solid var(--line-solid);
+  padding-top: 24px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat .n {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--amber);
+}
+
+.stat .l {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* ---------- Filters ---------- */
+
+.filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 8px 0 28px;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1px solid var(--line-solid);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 7px 14px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+
+.filter-btn:hover {
+  color: var(--text);
+  border-color: #ffffff4d;
+}
+
+.filter-btn.active {
+  color: var(--ink);
+  background: var(--amber);
+  border-color: var(--amber);
+  font-weight: 500;
+}
+
+/* ---------- Tool list ---------- */
+
+.tool-list {
+  border-top: 1px solid var(--line-solid);
+}
+
+.tool-row {
+  display: grid;
+  grid-template-columns: 56px 1fr auto;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line-solid);
+  text-decoration: none;
+  color: inherit;
+}
+
+.tool-row.is-hidden { display: none; }
+
+.tool-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius);
+  background: var(--surface-raised);
+  border: 1px solid var(--line-solid);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--amber);
+  letter-spacing: 0.02em;
+}
+
+.tool-body h3 {
+  margin: 0 0 4px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.tool-body p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  max-width: 46ch;
+}
+
+.tool-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  white-space: nowrap;
+}
+
+.tool-cat {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  border: 1px solid var(--line-solid);
+  padding: 3px 9px;
+  border-radius: var(--radius);
+}
+
+.tool-open {
+  font-size: 0.86rem;
+  color: var(--amber);
+  font-weight: 500;
+}
+
+.tool-row.coming .tool-open {
+  color: var(--text-muted);
+}
+
+.tool-row.coming {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.tool-row:not(.coming):hover .tool-body h3 {
+  color: var(--amber);
+}
+
+.tool-row:not(.coming):hover .tool-icon {
+  border-color: var(--amber-dim);
+}
+
+.empty-state {
+  padding: 40px 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* ---------- About blurb section ---------- */
+
+.about-strip {
+  margin-top: 56px;
+  padding: 32px 0 48px;
+  border-top: 1px solid var(--line-solid);
+}
+
+.about-strip p {
+  color: var(--text-muted);
+  max-width: 60ch;
+  font-size: 0.95rem;
+}
+
+/* ---------- Footer ---------- */
+
+footer.site-footer {
+  border-top: 1px solid var(--line-solid);
+  padding: 28px 0 40px;
+}
+
+footer.site-footer .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+footer.site-footer p {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+footer.site-footer nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.82rem;
+  margin-left: 20px;
+}
+
+footer.site-footer nav a:hover { color: var(--text); }
+
+/* ---------- Simple content pages (about/privacy) ---------- */
+
+.page-content {
+  padding: 56px 0 64px;
+}
+
+.page-content h1 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.page-content .updated {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 32px;
+}
+
+.page-content h2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 1.15rem;
+  margin-top: 36px;
+}
+
+.page-content p, .page-content li {
+  color: var(--text-muted);
+  font-size: 0.97rem;
+}
+
+.page-content a { color: var(--amber); }
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 620px) {
+  .tool-row {
+    grid-template-columns: 44px 1fr;
+  }
+  .tool-meta {
+    grid-column: 2;
+    padding-top: 2px;
+  }
+  .stat-row { gap: 28px; }
+}
+
+/* ---------- Motion & accessibility ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PDF Compressor",
+    "category": "PDF",
+    "description": "Shrink PDF file size in the browser before emailing or uploading, without touching a server.",
+    "url": "https://github.com/tdsinnovation/pdf-compressor",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "PDF Merge",
+    "category": "PDF",
+    "description": "Combine multiple PDFs into one file in the order you choose.",
+    "url": "https://github.com/tdsinnovation/pdf-merge",
+    "status": "live",
+    "icon": "PDF"
+  },
+  {
+    "name": "Image Resizer",
+    "category": "Image",
+    "description": "Resize and re-export images to exact pixel dimensions for uploads that reject oversized files.",
+    "url": "https://github.com/tdsinnovation/image-resizer",
+    "status": "live",
+    "icon": "IMG"
+  },
+  {
+    "name": "Image Compressor",
+    "category": "Image",
+    "description": "Reduce image file size with a quality slider and a live before/after preview.",
+    "url": "https://github.com/tdsinnovation/image-compressor",
+    "status": "live",
+    "icon": "IMG"
+  },
+  {
+    "name": "Word Counter",
+    "category": "Text",
+    "description": "Live word, character, and reading-time counts for essays, captions, and reports.",
+    "url": "https://github.com/tdsinnovation/word-counter",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "JSON Formatter",
+    "category": "Dev",
+    "description": "Paste messy JSON, get it validated and indented, with inline error locations.",
+    "url": "https://github.com/tdsinnovation/json-formatter",
+    "status": "coming soon",
+    "icon": "DEV"
+  }
+]
