@@ -1,50 +1,58 @@
 [
   {
+    "name": "justinnews.tech",
+    "category": "News",
+    "description": "An independent news site, built and run solo.",
+    "url": "https://justinnews.tech",
+    "status": "live",
+    "icon": "NEWS"
+  },
+  {
+    "name": "informedmedia.me",
+    "category": "News",
+    "description": "A second independent media project, including a Reader Revenue Manager integration.",
+    "url": "https://informedmedia.me",
+    "status": "live",
+    "icon": "NEWS"
+  },
+  {
+    "name": "Informed",
+    "category": "Apps",
+    "description": "RSS news aggregator for Android with a web companion and on-device text-to-speech briefings.",
+    "url": "",
+    "status": "coming soon",
+    "icon": "APP"
+  },
+  {
+    "name": "TicketStub",
+    "category": "Apps",
+    "description": "Turn event tickets into a photo-based memory keeper. No ads.",
+    "url": "",
+    "status": "coming soon",
+    "icon": "APP"
+  },
+  {
     "name": "PDF Compressor",
     "category": "PDF",
     "description": "Shrink PDF file size in the browser before emailing or uploading, without touching a server.",
-    "url": "https://github.com/tdsinnovation/pdf-compressor",
-    "status": "live",
-    "icon": "PDF"
-  },
-  {
-    "name": "PDF Merge",
-    "category": "PDF",
-    "description": "Combine multiple PDFs into one file in the order you choose.",
-    "url": "https://github.com/tdsinnovation/pdf-merge",
-    "status": "live",
+    "url": "",
+    "status": "coming soon",
     "icon": "PDF"
   },
   {
     "name": "Image Resizer",
     "category": "Image",
     "description": "Resize and re-export images to exact pixel dimensions for uploads that reject oversized files.",
-    "url": "https://github.com/tdsinnovation/image-resizer",
-    "status": "live",
-    "icon": "IMG"
-  },
-  {
-    "name": "Image Compressor",
-    "category": "Image",
-    "description": "Reduce image file size with a quality slider and a live before/after preview.",
-    "url": "https://github.com/tdsinnovation/image-compressor",
-    "status": "live",
+    "url": "",
+    "status": "coming soon",
     "icon": "IMG"
   },
   {
     "name": "Word Counter",
     "category": "Text",
     "description": "Live word, character, and reading-time counts for essays, captions, and reports.",
-    "url": "https://github.com/tdsinnovation/word-counter",
-    "status": "live",
-    "icon": "TXT"
-  },
-  {
-    "name": "JSON Formatter",
-    "category": "Dev",
-    "description": "Paste messy JSON, get it validated and indented, with inline error locations.",
-    "url": "https://github.com/tdsinnovation/json-formatter",
+    "url": "",
     "status": "coming soon",
-    "icon": "DEV"
+    "icon": "TXT"
   }
 ]

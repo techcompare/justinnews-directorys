@@ -28,8 +28,8 @@ lives in two JSON files — you never need to touch the HTML, CSS, or JS.
 
 ## Files you (almost) never touch
 
-- `index.html`, `about.html`, `privacy.html` — structure only, content is injected from
-  the JSON files at load time.
+- `index.html`, `about.html`, `privacy.html`, `contact.html`, `terms.html` — structure
+  only, content is injected from the JSON files at load time.
 - `style.css` — visual design.
 - `script.js` — reads the JSON and renders the page.
 
@@ -51,11 +51,14 @@ live site updates automatically within a minute, no redeploy step needed.
 AdSense reviews the whole site, not just one page. This site ships with the basics
 covered, but a few things are on you before you apply:
 
-- [ ] **Real content**: fill `tools.json` with tools that actually work (the ones here
-      are placeholders pointing at repos that don't exist yet). AdSense rejects sites
-      that look empty or under construction.
-  Removed hollow example: none of the sample tools' GitHub links are real yet — replace
-  the `url` fields with your actual repos or hosted tool pages before applying.
+- [ ] **Real content**: `tools.json` currently has your two real live sites
+      (`justinnews.tech`, `informedmedia.me`) marked `"live"` with real URLs, and your
+      apps/browser tools marked `"coming soon"` with an empty `url` (so nothing links to
+      a 404). As each tool actually goes live, change its `status` to `"live"` and fill
+      in the real `url`. AdSense rejects sites that look empty or that link out to
+      nothing.
+  - `about.html` has two `<em>[add Play Store / web link]</em>` placeholders for Informed
+    and TicketStub — replace those with the real listing URLs once you have them handy.
 - [ ] **Custom domain** — a `github.io` subdomain can work, but a custom domain reads
       more credibly to reviewers and is easy to add (see above).
 - [ ] **`ads.txt`** — already included with your AdSense publisher ID
