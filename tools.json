@@ -1,21 +1,5 @@
 [
   {
-    "name": "justinnews.tech",
-    "category": "Featured",
-    "description": "An independent news site, built and run solo.",
-    "url": "https://justinnews.tech",
-    "status": "live",
-    "icon": "NEWS"
-  },
-  {
-    "name": "informedmedia.me",
-    "category": "Featured",
-    "description": "A second independent media project, including a Reader Revenue Manager integration.",
-    "url": "https://informedmedia.me",
-    "status": "live",
-    "icon": "NEWS"
-  },
-  {
     "name": "iLovePDF",
     "category": "PDF",
     "description": "Merge, split, compress, and convert PDFs from a browser tab, no software to install.",

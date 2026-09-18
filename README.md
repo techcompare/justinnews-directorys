@@ -51,10 +51,9 @@ live site updates automatically within a minute, no redeploy step needed.
 AdSense reviews the whole site, not just one page. This site ships with the basics
 covered, but a few things are on you before you apply:
 
-- [x] **Real content**: `tools.json` now has 142 real, hand-verified tools across 13
-      categories (2 are your own — `justinnews.tech`, `informedmedia.me`, marked
-      `"Featured"` — the rest are well-established third-party tools with real, working
-      URLs, 10–15 per category). No placeholders anywhere on the site. If you add more
+- [x] **Real content**: `tools.json` now has 140 real, hand-verified third-party tools
+      across 12 categories, 10–15 per category. No self-promotion and no placeholders —
+      every listing is an independent tool with a real, working URL. If you add more
       later, keep the same pattern: real name, real URL, one honest sentence, correct
       category — and verify the URL actually works before committing it.
 - [ ] **Custom domain** — a `github.io` subdomain can work, but a custom domain reads
