@@ -1,10 +1,10 @@
 {
   "siteName": "Daily Tools HQ",
-  "tagline": "A workshop of small, useful tools",
-  "heroDescription": "Free browser-based tools for PDFs, images, and everyday text work \u2014 no installs, no sign-ups, no nonsense.",
-  "founderNote": "Built and maintained by one person in Pune, India, on a strict no-budget policy. If a tool saves you a step, that's the whole point.",
+  "tagline": "A curated directory of free tools",
+  "heroDescription": "Hand-picked free tools for PDFs, images, writing, dev work, and more — a couple built here, the rest gathered from around the web.",
+  "founderNote": "Built and maintained by one person in Pune, India, on a strict no-budget policy. Every tool listed here is checked by hand before it goes up.",
   "contactEmail": "workwithme785@gmail.com",
   "githubUrl": "https://github.com/tdsinnovation",
-  "adsensePublisherId": "ca-pub-9715275055190011",
-  "footerNote": "New tools ship regularly. Suggestions welcome by email."
+  "adsensePublisherId": "ca-pub-7901268014546748",
+  "footerNote": "New tools added regularly. Spotted something outdated or broken? Let us know."
 }

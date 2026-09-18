@@ -1,1611 +1,1138 @@
 [
   {
-    "name": "Merge PDF",
+    "name": "justinnews.tech",
+    "category": "Featured",
+    "description": "An independent news site, built and run solo.",
+    "url": "https://justinnews.tech",
+    "status": "live",
+    "icon": "NEWS"
+  },
+  {
+    "name": "informedmedia.me",
+    "category": "Featured",
+    "description": "A second independent media project, including a Reader Revenue Manager integration.",
+    "url": "https://informedmedia.me",
+    "status": "live",
+    "icon": "NEWS"
+  },
+  {
+    "name": "iLovePDF",
     "category": "PDF",
-    "description": "Combine multiple PDF files into one document.",
-    "url": "https://www.ilovepdf.com/merge_pdf",
+    "description": "Merge, split, compress, and convert PDFs from a browser tab, no software to install.",
+    "url": "https://www.ilovepdf.com/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "Split PDF",
+    "name": "Smallpdf",
     "category": "PDF",
-    "description": "Split a PDF into separate pages or ranges.",
-    "url": "https://www.ilovepdf.com/split_pdf",
+    "description": "A clean, straightforward toolkit for compressing, converting, and editing PDF files online.",
+    "url": "https://smallpdf.com/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "Compress PDF",
+    "name": "PDF24 Tools",
     "category": "PDF",
-    "description": "Reduce PDF file size for easier sharing.",
-    "url": "https://www.ilovepdf.com/compress_pdf",
+    "description": "A large free collection of PDF utilities — merge, rotate, OCR, watermark, and more — in one place.",
+    "url": "https://tools.pdf24.org/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "PDF to Word",
+    "name": "Sejda",
     "category": "PDF",
-    "description": "Convert PDF documents into editable Word files.",
-    "url": "https://www.ilovepdf.com/pdf_to_word",
+    "description": "Browser-based PDF editing with per-day free limits generous enough for occasional use.",
+    "url": "https://www.sejda.com/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "PDF to Excel",
+    "name": "PDF Candy",
     "category": "PDF",
-    "description": "Convert PDF tables into editable spreadsheets.",
-    "url": "https://www.ilovepdf.com/pdf_to_excel",
+    "description": "A wide set of one-click PDF conversion and editing tools, no account needed.",
+    "url": "https://pdfcandy.com/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "PDF to PowerPoint",
+    "name": "PDFescape",
     "category": "PDF",
-    "description": "Convert PDF pages into PowerPoint presentations.",
-    "url": "https://www.ilovepdf.com/pdf_to_powerpoint",
+    "description": "Fill, annotate, and lightly edit PDFs directly in the browser, free tier included.",
+    "url": "https://www.pdfescape.com/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "PDF to JPG",
+    "name": "Soda PDF",
     "category": "PDF",
-    "description": "Convert PDF pages into JPG images.",
-    "url": "https://www.ilovepdf.com/pdf_to_jpg",
+    "description": "Online PDF conversion and editing with a free tier covering the everyday basics.",
+    "url": "https://www.sodapdf.com/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "JPG to PDF",
+    "name": "Xodo",
     "category": "PDF",
-    "description": "Convert images into PDF documents.",
-    "url": "https://www.ilovepdf.com/jpg_to_pdf",
+    "description": "A fast PDF reader and annotator built for marking up documents and forms.",
+    "url": "https://xodo.com/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "Word to PDF",
+    "name": "Adobe Acrobat Online",
     "category": "PDF",
-    "description": "Convert Word documents into PDF files.",
-    "url": "https://www.ilovepdf.com/word_to_pdf",
+    "description": "Adobe's own free web tools for compressing, converting, and e-signing PDFs.",
+    "url": "https://www.adobe.com/acrobat/online.html",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "Excel to PDF",
+    "name": "PDF2Go",
     "category": "PDF",
-    "description": "Convert Excel spreadsheets into PDF documents.",
-    "url": "https://www.ilovepdf.com/excel_to_pdf",
+    "description": "Convert to and from PDF, compress, and merge, all processed online with no install.",
+    "url": "https://www.pdf2go.com/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "PowerPoint to PDF",
+    "name": "Foxit PDF Tools",
     "category": "PDF",
-    "description": "Convert PowerPoint presentations into PDF.",
-    "url": "https://www.ilovepdf.com/powerpoint_to_pdf",
+    "description": "A long-running PDF software maker with free online conversion and editing tools.",
+    "url": "https://www.foxit.com/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "Rotate PDF",
+    "name": "CleverPDF",
     "category": "PDF",
-    "description": "Rotate PDF pages and save the corrected file.",
-    "url": "https://www.ilovepdf.com/rotate_pdf",
+    "description": "Over 30 free PDF tools bundled into one straightforward site — convert, merge, split, compress.",
+    "url": "https://www.cleverpdf.com/",
     "status": "live",
     "icon": "PDF"
   },
   {
-    "name": "Watermark PDF",
-    "category": "PDF",
-    "description": "Add text or image watermarks to PDF files.",
-    "url": "https://www.ilovepdf.com/watermark_pdf",
-    "status": "live",
-    "icon": "PDF"
-  },
-  {
-    "name": "Unlock PDF",
-    "category": "PDF",
-    "description": "Remove PDF restrictions when authorized to do so.",
-    "url": "https://www.ilovepdf.com/unlock_pdf",
-    "status": "live",
-    "icon": "PDF"
-  },
-  {
-    "name": "Protect PDF",
-    "category": "PDF",
-    "description": "Protect PDF documents with a password.",
-    "url": "https://www.ilovepdf.com/protect_pdf",
-    "status": "live",
-    "icon": "PDF"
-  },
-  {
-    "name": "Organize PDF",
-    "category": "PDF",
-    "description": "Reorder, rotate and manage PDF pages.",
-    "url": "https://www.ilovepdf.com/organize-pdf",
-    "status": "live",
-    "icon": "PDF"
-  },
-  {
-    "name": "Repair PDF",
-    "category": "PDF",
-    "description": "Attempt to repair damaged or corrupted PDF files.",
-    "url": "https://www.ilovepdf.com/repair_pdf",
-    "status": "live",
-    "icon": "PDF"
-  },
-  {
-    "name": "OCR PDF",
-    "category": "PDF",
-    "description": "Recognize text in scanned PDF documents.",
-    "url": "https://www.ilovepdf.com/ocr-pdf",
-    "status": "live",
-    "icon": "PDF"
-  },
-  {
-    "name": "HTML to PDF",
-    "category": "PDF",
-    "description": "Convert HTML pages into PDF documents.",
-    "url": "https://www.ilovepdf.com/html-to-pdf",
-    "status": "live",
-    "icon": "PDF"
-  },
-  {
-    "name": "PDF Editor",
-    "category": "PDF",
-    "description": "Add text, images, shapes and annotations to PDFs.",
-    "url": "https://www.ilovepdf.com/edit-pdf",
-    "status": "live",
-    "icon": "PDF"
-  },
-
-  {
-    "name": "Image Compressor",
+    "name": "TinyPNG",
     "category": "Image",
-    "description": "Compress images while reducing file size.",
+    "description": "Smart lossy compression that shrinks PNG and JPEG files with barely visible quality loss.",
     "url": "https://tinypng.com/",
     "status": "live",
     "icon": "IMG"
   },
   {
-    "name": "Image Resizer",
+    "name": "Squoosh",
     "category": "Image",
-    "description": "Resize images to specific dimensions.",
-    "url": "https://www.iloveimg.com/resize-image",
+    "description": "A Google-built image compressor that lets you compare formats and settings side by side, entirely in-browser.",
+    "url": "https://squoosh.app/",
     "status": "live",
     "icon": "IMG"
   },
   {
-    "name": "Image Cropper",
+    "name": "remove.bg",
     "category": "Image",
-    "description": "Crop images to custom dimensions and ratios.",
-    "url": "https://www.iloveimg.com/crop-image",
-    "status": "live",
-    "icon": "IMG"
-  },
-  {
-    "name": "Image Rotator",
-    "category": "Image",
-    "description": "Rotate images to the desired orientation.",
-    "url": "https://www.iloveimg.com/rotate-image",
-    "status": "live",
-    "icon": "IMG"
-  },
-  {
-    "name": "Image Converter",
-    "category": "Image",
-    "description": "Convert images between common formats.",
-    "url": "https://convertio.co/image-converter/",
-    "status": "live",
-    "icon": "IMG"
-  },
-  {
-    "name": "JPG to PNG",
-    "category": "Image",
-    "description": "Convert JPG images into PNG format.",
-    "url": "https://convertio.co/jpg-png/",
-    "status": "live",
-    "icon": "IMG"
-  },
-  {
-    "name": "PNG to JPG",
-    "category": "Image",
-    "description": "Convert PNG images into JPG format.",
-    "url": "https://convertio.co/png-jpg/",
-    "status": "live",
-    "icon": "IMG"
-  },
-  {
-    "name": "WebP Converter",
-    "category": "Image",
-    "description": "Convert images to and from WebP format.",
-    "url": "https://convertio.co/webp-converter/",
-    "status": "live",
-    "icon": "IMG"
-  },
-  {
-    "name": "HEIC to JPG",
-    "category": "Image",
-    "description": "Convert HEIC photos into JPG images.",
-    "url": "https://heictojpg.com/",
-    "status": "live",
-    "icon": "IMG"
-  },
-  {
-    "name": "Background Remover",
-    "category": "Image",
-    "description": "Automatically remove backgrounds from images.",
+    "description": "Strips the background out of a photo automatically in a few seconds.",
     "url": "https://www.remove.bg/",
     "status": "live",
     "icon": "IMG"
   },
   {
-    "name": "Image Watermark",
+    "name": "Photopea",
     "category": "Image",
-    "description": "Add watermarks to images.",
-    "url": "https://www.iloveimg.com/watermark-image",
-    "status": "live",
-    "icon": "IMG"
-  },
-  {
-    "name": "Image Editor",
-    "category": "Image",
-    "description": "Edit images directly in a browser.",
+    "description": "A full layer-based photo editor in the browser that opens PSD files directly, free with no install.",
     "url": "https://www.photopea.com/",
     "status": "live",
     "icon": "IMG"
   },
   {
-    "name": "Image Upscaler",
+    "name": "Pixlr",
     "category": "Image",
-    "description": "Increase image resolution using AI enhancement.",
-    "url": "https://www.upscale.media/",
+    "description": "A quick browser photo editor with AI-assisted touch-up tools and a free tier.",
+    "url": "https://pixlr.com/",
     "status": "live",
     "icon": "IMG"
   },
   {
-    "name": "SVG Optimizer",
+    "name": "Compressor.io",
     "category": "Image",
-    "description": "Optimize SVG files and remove unnecessary data.",
-    "url": "https://jakearchibald.github.io/svgomg/",
+    "description": "A simple drag-and-drop image compressor with a lossless mode for when quality can't drop at all.",
+    "url": "https://compressor.io/",
     "status": "live",
     "icon": "IMG"
   },
   {
-    "name": "Favicon Generator",
+    "name": "iLoveIMG",
     "category": "Image",
-    "description": "Create favicon files from an image.",
-    "url": "https://favicon.io/favicon-converter/",
+    "description": "Resize, crop, compress, and convert images in bulk, from the makers of iLovePDF.",
+    "url": "https://www.iloveimg.com/",
     "status": "live",
     "icon": "IMG"
   },
   {
-    "name": "Screenshot Mockup",
+    "name": "Fotor",
     "category": "Image",
-    "description": "Create device-style presentations for screenshots.",
-    "url": "https://mockuphone.com/",
+    "description": "Browser photo editing and quick design templates, with a usable free tier.",
+    "url": "https://www.fotor.com/",
     "status": "live",
     "icon": "IMG"
   },
   {
-    "name": "Color Picker",
+    "name": "BeFunky",
     "category": "Image",
-    "description": "Pick colors and obtain HEX and RGB values.",
-    "url": "https://htmlcolorcodes.com/color-picker/",
+    "description": "Photo editing, collage-making, and basic graphic design in one browser tool.",
+    "url": "https://www.befunky.com/",
     "status": "live",
     "icon": "IMG"
   },
   {
-    "name": "Gradient Generator",
+    "name": "PicResize",
     "category": "Image",
-    "description": "Create CSS gradients visually.",
-    "url": "https://cssgradient.io/",
+    "description": "A no-frills tool for resizing images to exact dimensions or file sizes fast.",
+    "url": "https://picresize.com/",
     "status": "live",
     "icon": "IMG"
   },
   {
-    "name": "Image Metadata Viewer",
+    "name": "ResizePixel",
     "category": "Image",
-    "description": "Inspect metadata embedded in image files.",
-    "url": "https://jimpl.com/",
+    "description": "Resize, crop, and rotate images online with straightforward, exact controls.",
+    "url": "https://www.resizepixel.com/",
     "status": "live",
     "icon": "IMG"
   },
-
   {
-    "name": "Word Counter",
-    "category": "Text",
-    "description": "Count words, characters and sentences.",
-    "url": "https://wordcounter.net/",
+    "name": "Img2Go",
+    "category": "Image",
+    "description": "Converts, resizes, and edits images across a wide range of formats, free and online.",
+    "url": "https://www.img2go.com/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "IMG"
   },
   {
-    "name": "Character Counter",
-    "category": "Text",
-    "description": "Count characters in text.",
-    "url": "https://charactercounter.com/",
+    "name": "Canva",
+    "category": "Design",
+    "description": "Drag-and-drop design for posters, social posts, and presentations, with a large free template library.",
+    "url": "https://www.canva.com/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Case Converter",
-    "category": "Text",
-    "description": "Convert text between uppercase and lowercase.",
-    "url": "https://convertcase.net/",
+    "name": "Figma",
+    "category": "Design",
+    "description": "Collaborative interface design and prototyping, free for individuals and small teams.",
+    "url": "https://www.figma.com/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Lorem Ipsum Generator",
-    "category": "Text",
-    "description": "Generate placeholder text for designs and websites.",
-    "url": "https://www.lipsum.com/",
+    "name": "Excalidraw",
+    "category": "Design",
+    "description": "A hand-drawn-style whiteboard for quick diagrams and wireframes, no account required.",
+    "url": "https://excalidraw.com/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Text Diff",
-    "category": "Text",
-    "description": "Compare two texts and identify differences.",
-    "url": "https://www.diffchecker.com/text-compare/",
+    "name": "Coolors",
+    "category": "Design",
+    "description": "Generates and locks in color palettes fast, with contrast checking built in.",
+    "url": "https://coolors.co/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Text Sorter",
-    "category": "Text",
-    "description": "Sort lines of text alphabetically or numerically.",
-    "url": "https://www.textfixer.com/tools/alphabetize-text.php",
+    "name": "Google Fonts",
+    "category": "Design",
+    "description": "A free, open-licensed library of web fonts ready to drop into any project.",
+    "url": "https://fonts.google.com/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Duplicate Line Remover",
-    "category": "Text",
-    "description": "Find and remove duplicate lines from text.",
-    "url": "https://www.textfixer.com/tools/remove-duplicate-lines.php",
+    "name": "Penpot",
+    "category": "Design",
+    "description": "An open-source Figma alternative for interface design, free to use in-browser or self-host.",
+    "url": "https://penpot.app/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Remove Line Breaks",
-    "category": "Text",
-    "description": "Clean unwanted line breaks from copied text.",
-    "url": "https://www.textfixer.com/tools/remove-line-breaks.php",
+    "name": "Vectr",
+    "category": "Design",
+    "description": "A simple free vector graphics editor that runs entirely in the browser.",
+    "url": "https://vectr.com/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Text Repeater",
-    "category": "Text",
-    "description": "Repeat text a specified number of times.",
-    "url": "https://www.textfixer.com/tools/repeat-text.php",
+    "name": "Adobe Express",
+    "category": "Design",
+    "description": "Adobe's quick-design tool for social graphics and short videos, free tier included.",
+    "url": "https://express.adobe.com/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Reading Time Calculator",
-    "category": "Text",
-    "description": "Estimate reading time from text length.",
-    "url": "https://www.readinglength.com/",
+    "name": "VistaCreate",
+    "category": "Design",
+    "description": "Template-based graphic design for social posts and marketing materials, free to start.",
+    "url": "https://create.vista.com/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Slug Generator",
-    "category": "Text",
-    "description": "Convert titles into URL-friendly slugs.",
-    "url": "https://www.slugify.net/",
+    "name": "Font Squirrel",
+    "category": "Design",
+    "description": "A library of commercial-use-free fonts, hand-picked rather than auto-aggregated.",
+    "url": "https://www.fontsquirrel.com/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Markdown Editor",
-    "category": "Text",
-    "description": "Write and preview Markdown documents.",
-    "url": "https://dillinger.io/",
+    "name": "Color Hunt",
+    "category": "Design",
+    "description": "A community-curated feed of ready-made color palettes for design projects.",
+    "url": "https://colorhunt.co/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "HTML to Markdown",
-    "category": "Text",
-    "description": "Convert HTML content into Markdown.",
-    "url": "https://www.browserling.com/tools/html-to-markdown",
+    "name": "Unsplash",
+    "category": "Design",
+    "description": "High-resolution stock photography free to use, with no attribution required.",
+    "url": "https://unsplash.com/",
     "status": "live",
-    "icon": "TXT"
+    "icon": "DES"
   },
   {
-    "name": "Text to ASCII",
-    "category": "Text",
-    "description": "Create ASCII-style representations from text.",
-    "url": "https://patorjk.com/software/taag/",
-    "status": "live",
-    "icon": "TXT"
-  },
-  {
-    "name": "Morse Code Translator",
-    "category": "Text",
-    "description": "Translate text to and from Morse code.",
-    "url": "https://morsecode.world/international/translator.html",
-    "status": "live",
-    "icon": "TXT"
-  },
-  {
-    "name": "Text Cleaner",
-    "category": "Text",
-    "description": "Clean whitespace and unwanted characters from text.",
-    "url": "https://www.textfixer.com/tools/remove-extra-spaces.php",
-    "status": "live",
-    "icon": "TXT"
-  },
-  {
-    "name": "Email Extractor",
-    "category": "Text",
-    "description": "Extract email addresses from blocks of text.",
-    "url": "https://www.browserling.com/tools/extract-emails",
-    "status": "live",
-    "icon": "TXT"
-  },
-  {
-    "name": "URL Extractor",
-    "category": "Text",
-    "description": "Extract URLs from text.",
-    "url": "https://www.browserling.com/tools/extract-urls",
-    "status": "live",
-    "icon": "TXT"
-  },
-  {
-    "name": "Text Reverser",
-    "category": "Text",
-    "description": "Reverse characters or words in text.",
-    "url": "https://www.textfixer.com/tools/reverse-text.php",
-    "status": "live",
-    "icon": "TXT"
-  },
-  {
-    "name": "Text Length Calculator",
-    "category": "Text",
-    "description": "Measure text length and character counts.",
-    "url": "https://www.charactercountonline.com/",
-    "status": "live",
-    "icon": "TXT"
-  },
-  {
-    "name": "Text Case Converter",
-    "category": "Text",
-    "description": "Transform text into multiple capitalization styles.",
-    "url": "https://capitalizemytitle.com/",
-    "status": "live",
-    "icon": "TXT"
-  },
-
-  {
-    "name": "JSON Formatter",
-    "category": "Developer",
-    "description": "Format and beautify JSON data.",
-    "url": "https://jsonformatter.curiousconcept.com/",
+    "name": "CodePen",
+    "category": "Dev",
+    "description": "A live front-end sandbox for HTML, CSS, and JS, handy for quick prototypes and sharing snippets.",
+    "url": "https://codepen.io/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "JSON Viewer",
-    "category": "Developer",
-    "description": "View JSON data in a readable tree structure.",
-    "url": "https://jsonviewer.stack.hu/",
+    "name": "JSFiddle",
+    "category": "Dev",
+    "description": "Another live code sandbox for testing and sharing small front-end experiments.",
+    "url": "https://jsfiddle.net/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "JSON to CSV",
-    "category": "Developer",
-    "description": "Convert JSON data into CSV format.",
-    "url": "https://www.convertcsv.com/json-to-csv.htm",
-    "status": "live",
-    "icon": "DEV"
-  },
-  {
-    "name": "JSON to XML",
-    "category": "Developer",
-    "description": "Convert JSON structures into XML.",
-    "url": "https://www.convertjson.com/json-to-xml.htm",
-    "status": "live",
-    "icon": "DEV"
-  },
-  {
-    "name": "XML Formatter",
-    "category": "Developer",
-    "description": "Format and beautify XML documents.",
-    "url": "https://www.freeformatter.com/xml-formatter.html",
-    "status": "live",
-    "icon": "DEV"
-  },
-  {
-    "name": "HTML Formatter",
-    "category": "Developer",
-    "description": "Format and beautify HTML code.",
-    "url": "https://www.freeformatter.com/html-formatter.html",
-    "status": "live",
-    "icon": "DEV"
-  },
-  {
-    "name": "CSS Formatter",
-    "category": "Developer",
-    "description": "Format and beautify CSS code.",
-    "url": "https://www.freeformatter.com/css-beautifier.html",
-    "status": "live",
-    "icon": "DEV"
-  },
-  {
-    "name": "JavaScript Formatter",
-    "category": "Developer",
-    "description": "Beautify JavaScript source code.",
-    "url": "https://beautifier.io/",
-    "status": "live",
-    "icon": "DEV"
-  },
-  {
-    "name": "SQL Formatter",
-    "category": "Developer",
-    "description": "Format SQL queries for easier reading.",
-    "url": "https://www.dpriver.com/pp/landing",
-    "status": "live",
-    "icon": "DEV"
-  },
-  {
-    "name": "Regex Tester",
-    "category": "Developer",
-    "description": "Test regular expressions against sample text.",
+    "name": "Regex101",
+    "category": "Dev",
+    "description": "Build and test regular expressions with a live match breakdown and explanation panel.",
     "url": "https://regex101.com/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "JWT Decoder",
-    "category": "Developer",
-    "description": "Decode and inspect JSON Web Tokens.",
-    "url": "https://jwt.io/",
+    "name": "JSONLint",
+    "category": "Dev",
+    "description": "Validates and pretty-prints JSON, pointing straight at the line where it breaks.",
+    "url": "https://jsonlint.com/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "Base64 Encoder",
-    "category": "Developer",
-    "description": "Encode text into Base64.",
-    "url": "https://www.base64encode.org/",
+    "name": "Carbon",
+    "category": "Dev",
+    "description": "Turns a code snippet into a clean, shareable screenshot image.",
+    "url": "https://carbon.now.sh/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "Base64 Decoder",
-    "category": "Developer",
-    "description": "Decode Base64 strings.",
-    "url": "https://www.base64decode.org/",
+    "name": "Replit",
+    "category": "Dev",
+    "description": "A browser-based IDE that runs dozens of languages with nothing to install locally.",
+    "url": "https://replit.com/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "URL Encoder",
-    "category": "Developer",
-    "description": "Encode URLs and query parameters.",
-    "url": "https://www.urlencoder.org/",
+    "name": "diagrams.net",
+    "category": "Dev",
+    "description": "Free flowchart and architecture-diagram editor (formerly draw.io), works offline once loaded.",
+    "url": "https://app.diagrams.net/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "URL Decoder",
-    "category": "Developer",
-    "description": "Decode URL-encoded strings.",
-    "url": "https://www.urldecoder.org/",
+    "name": "CodeSandbox",
+    "category": "Dev",
+    "description": "A cloud dev environment for prototyping full front-end apps, not just single files.",
+    "url": "https://codesandbox.io/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "UUID Generator",
-    "category": "Developer",
-    "description": "Generate random UUID identifiers.",
-    "url": "https://www.uuidgenerator.net/",
+    "name": "StackBlitz",
+    "category": "Dev",
+    "description": "Instant, full-stack browser IDE that runs Node.js projects without a server.",
+    "url": "https://stackblitz.com/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "Unix Timestamp Converter",
-    "category": "Developer",
-    "description": "Convert Unix timestamps into readable dates.",
-    "url": "https://www.unixtimestamp.com/",
+    "name": "Can I Use",
+    "category": "Dev",
+    "description": "Checks browser support for a given web feature before you rely on it.",
+    "url": "https://caniuse.com/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "Cron Generator",
-    "category": "Developer",
-    "description": "Create and understand cron expressions.",
-    "url": "https://crontab.guru/",
+    "name": "DevDocs",
+    "category": "Dev",
+    "description": "Combines dozens of API docs into one fast, searchable, offline-capable reference.",
+    "url": "https://devdocs.io/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "Diff Checker",
-    "category": "Developer",
-    "description": "Compare two blocks of code or text.",
-    "url": "https://www.diffchecker.com/",
+    "name": "W3Schools Tryit Editor",
+    "category": "Dev",
+    "description": "Edit and run HTML, CSS, and JS snippets live, right next to the reference docs.",
+    "url": "https://www.w3schools.com/tryit/",
     "status": "live",
     "icon": "DEV"
   },
   {
-    "name": "HTTP Status Checker",
-    "category": "Developer",
-    "description": "Check HTTP status codes and response information.",
-    "url": "https://httpstatus.io/",
+    "name": "Postman",
+    "category": "Dev",
+    "description": "Build, test, and share API requests, with a free tier for individual use.",
+    "url": "https://www.postman.com/",
     "status": "live",
     "icon": "DEV"
   },
-
   {
-    "name": "Meta Tag Generator",
+    "name": "Grammarly",
+    "category": "Writing",
+    "description": "Grammar and clarity checking as you type, with a free tier covering the basics.",
+    "url": "https://www.grammarly.com/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "Hemingway Editor",
+    "category": "Writing",
+    "description": "Flags dense, hard-to-read sentences and passive voice to tighten up a draft.",
+    "url": "https://hemingwayapp.com/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "LanguageTool",
+    "category": "Writing",
+    "description": "An open-source grammar and style checker supporting over 30 languages.",
+    "url": "https://languagetool.org/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "DeepL Translate",
+    "category": "Writing",
+    "description": "Machine translation that consistently reads more natural than most alternatives.",
+    "url": "https://www.deepl.com/translator",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "Google Translate",
+    "category": "Writing",
+    "description": "Free translation across well over 100 languages, with camera and voice input.",
+    "url": "https://translate.google.com/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "QuillBot",
+    "category": "Writing",
+    "description": "Paraphrasing and summarizing tool for reworking sentences without losing meaning.",
+    "url": "https://quillbot.com/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "Wordtune",
+    "category": "Writing",
+    "description": "Suggests rewritten versions of a sentence to match a tone you pick.",
+    "url": "https://www.wordtune.com/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "ProWritingAid",
+    "category": "Writing",
+    "description": "Deeper style and structure analysis for longer pieces, free tier available.",
+    "url": "https://prowritingaid.com/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "Copy.ai",
+    "category": "Writing",
+    "description": "AI-assisted first drafts for marketing copy, emails, and short-form content.",
+    "url": "https://www.copy.ai/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "WordCounter.net",
+    "category": "Writing",
+    "description": "Live word, character, and reading-time counts for essays, captions, and reports.",
+    "url": "https://wordcounter.net/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "Readable",
+    "category": "Writing",
+    "description": "Scores a piece of writing for readability and flags what's slowing it down.",
+    "url": "https://readable.com/",
+    "status": "live",
+    "icon": "TXT"
+  },
+  {
+    "name": "Notion",
+    "category": "Productivity",
+    "description": "Notes, docs, and lightweight databases in one flexible workspace, free for personal use.",
+    "url": "https://www.notion.so/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "Trello",
+    "category": "Productivity",
+    "description": "Drag-and-drop kanban boards for tracking tasks solo or with a small team.",
+    "url": "https://trello.com/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "Todoist",
+    "category": "Productivity",
+    "description": "A fast, keyboard-friendly to-do list with natural-language due dates.",
+    "url": "https://todoist.com/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "Google Keep",
+    "category": "Productivity",
+    "description": "Quick notes, checklists, and reminders that sync instantly across devices.",
+    "url": "https://keep.google.com/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "Toggl Track",
+    "category": "Productivity",
+    "description": "One-click time tracking with clean reports, free for individual use.",
+    "url": "https://toggl.com/track/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "Asana",
+    "category": "Productivity",
+    "description": "Task and project tracking for teams, with a free tier for small groups.",
+    "url": "https://asana.com/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "ClickUp",
+    "category": "Productivity",
+    "description": "An all-in-one workspace for tasks, docs, and goals with a generous free plan.",
+    "url": "https://clickup.com/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "Airtable",
+    "category": "Productivity",
+    "description": "A spreadsheet that behaves like a database, for tracking anything structured.",
+    "url": "https://www.airtable.com/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "Slack",
+    "category": "Productivity",
+    "description": "Team messaging with channels, threads, and a free tier for smaller groups.",
+    "url": "https://slack.com/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "Google Calendar",
+    "category": "Productivity",
+    "description": "Free scheduling that syncs across devices and plays well with everything else Google.",
+    "url": "https://calendar.google.com/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "Miro",
+    "category": "Productivity",
+    "description": "An infinite collaborative whiteboard for brainstorming and planning, free to start.",
+    "url": "https://miro.com/",
+    "status": "live",
+    "icon": "PROD"
+  },
+  {
+    "name": "Google Search Console",
     "category": "SEO",
-    "description": "Generate title and meta description tags.",
-    "url": "https://metatags.io/",
+    "description": "See exactly how Google crawls and ranks your site, straight from the source.",
+    "url": "https://search.google.com/search-console/about",
     "status": "live",
     "icon": "SEO"
   },
   {
-    "name": "SEO Checker",
+    "name": "Google Trends",
     "category": "SEO",
-    "description": "Analyze basic SEO elements of a webpage.",
-    "url": "https://www.seobility.net/en/seocheck/",
+    "description": "Tracks search interest over time and by region for any term or topic.",
+    "url": "https://trends.google.com/",
+    "status": "live",
+    "icon": "SEO"
+  },
+  {
+    "name": "Ubersuggest",
+    "category": "SEO",
+    "description": "Keyword ideas, search volume, and competitor gaps, with a limited free daily quota.",
+    "url": "https://neilpatel.com/ubersuggest/",
+    "status": "live",
+    "icon": "SEO"
+  },
+  {
+    "name": "AnswerThePublic",
+    "category": "SEO",
+    "description": "Visualizes the actual questions people type around a keyword — good for content ideas.",
+    "url": "https://answerthepublic.com/",
     "status": "live",
     "icon": "SEO"
   },
   {
     "name": "PageSpeed Insights",
     "category": "SEO",
-    "description": "Analyze webpage performance and Core Web Vitals.",
+    "description": "Google's own page-speed and Core Web Vitals report for any public URL.",
     "url": "https://pagespeed.web.dev/",
     "status": "live",
     "icon": "SEO"
   },
   {
-    "name": "Mobile-Friendly Test",
+    "name": "Google Keyword Planner",
     "category": "SEO",
-    "description": "Check how a page performs on mobile devices.",
-    "url": "https://search.google.com/test/mobile-friendly",
+    "description": "Search volume and keyword ideas straight from Google Ads, free with an account.",
+    "url": "https://ads.google.com/home/tools/keyword-planner/",
     "status": "live",
     "icon": "SEO"
   },
   {
-    "name": "Rich Results Test",
+    "name": "Moz Link Explorer",
     "category": "SEO",
-    "description": "Test structured data for Google rich results.",
-    "url": "https://search.google.com/test/rich-results",
+    "description": "Checks backlinks and domain authority for any site, limited free lookups daily.",
+    "url": "https://moz.com/link-explorer",
     "status": "live",
     "icon": "SEO"
   },
   {
-    "name": "Schema Markup Validator",
+    "name": "Ahrefs Webmaster Tools",
     "category": "SEO",
-    "description": "Validate Schema.org structured data.",
-    "url": "https://validator.schema.org/",
+    "description": "Free site audit and backlink data for sites you can verify ownership of.",
+    "url": "https://ahrefs.com/webmaster-tools",
     "status": "live",
     "icon": "SEO"
   },
   {
-    "name": "Robots.txt Tester",
+    "name": "Screaming Frog SEO Spider",
     "category": "SEO",
-    "description": "Inspect and test robots.txt rules.",
-    "url": "https://technicalseo.com/tools/robots-txt/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "Sitemap Generator",
-    "category": "SEO",
-    "description": "Generate XML sitemaps for websites.",
-    "url": "https://www.xml-sitemaps.com/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "Sitemap Validator",
-    "category": "SEO",
-    "description": "Check XML sitemap structure and accessibility.",
-    "url": "https://www.xml-sitemaps.com/validate-xml-sitemap.html",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "Keyword Density Checker",
-    "category": "SEO",
-    "description": "Analyze keyword frequency within content.",
-    "url": "https://www.internetmarketingninjas.com/seo-tools/keyword-density/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "SERP Snippet Preview",
-    "category": "SEO",
-    "description": "Preview how a page may appear in search results.",
-    "url": "https://www.serpsimulator.com/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "Canonical URL Checker",
-    "category": "SEO",
-    "description": "Inspect canonical URL declarations.",
-    "url": "https://technicalseo.com/tools/rel-canonical/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "HTTP Header Checker",
-    "category": "SEO",
-    "description": "Inspect HTTP response headers for a URL.",
-    "url": "https://httpstatus.io/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "Redirect Checker",
-    "category": "SEO",
-    "description": "Trace URL redirects and HTTP status codes.",
-    "url": "https://httpstatus.io/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "Broken Link Checker",
-    "category": "SEO",
-    "description": "Find broken links on websites.",
-    "url": "https://www.deadlinkchecker.com/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "Open Graph Preview",
-    "category": "SEO",
-    "description": "Preview Open Graph metadata for social sharing.",
-    "url": "https://www.opengraph.xyz/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "Twitter Card Validator",
-    "category": "SEO",
-    "description": "Inspect social sharing metadata for webpages.",
-    "url": "https://www.heymeta.com/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "Hreflang Checker",
-    "category": "SEO",
-    "description": "Check hreflang implementation on webpages.",
-    "url": "https://technicalseo.com/tools/hreflang/",
-    "status": "live",
-    "icon": "SEO"
-  },
-  {
-    "name": "SEO Spider",
-    "category": "SEO",
-    "description": "Crawl websites and inspect technical SEO issues.",
+    "description": "Crawls a site to surface broken links, missing metadata, and redirect chains, free up to 500 URLs.",
     "url": "https://www.screamingfrog.co.uk/seo-spider/",
     "status": "live",
     "icon": "SEO"
   },
   {
-    "name": "Keyword Research",
+    "name": "GTmetrix",
     "category": "SEO",
-    "description": "Research search terms and keyword ideas.",
-    "url": "https://ads.google.com/home/tools/keyword-planner/",
+    "description": "A detailed page-speed report with a waterfall breakdown of what's slowing a page down.",
+    "url": "https://gtmetrix.com/",
     "status": "live",
     "icon": "SEO"
   },
-
   {
-    "name": "Password Generator",
-    "category": "Security",
-    "description": "Generate strong random passwords.",
-    "url": "https://passwordsgenerator.net/",
+    "name": "Bing Webmaster Tools",
+    "category": "SEO",
+    "description": "Bing's equivalent of Search Console — crawl stats, indexing, and keyword data.",
+    "url": "https://www.bing.com/webmasters",
     "status": "live",
-    "icon": "SEC"
+    "icon": "SEO"
   },
   {
-    "name": "Password Strength Checker",
+    "name": "CloudConvert",
+    "category": "Converters",
+    "description": "Converts between 200+ file formats — documents, audio, video, images — with a free monthly quota.",
+    "url": "https://cloudconvert.com/",
+    "status": "live",
+    "icon": "CONV"
+  },
+  {
+    "name": "Zamzar",
+    "category": "Converters",
+    "description": "One of the oldest online file converters, still handling most common formats reliably.",
+    "url": "https://www.zamzar.com/",
+    "status": "live",
+    "icon": "CONV"
+  },
+  {
+    "name": "FreeConvert",
+    "category": "Converters",
+    "description": "File conversion plus basic editing (trim, compress, merge) for video, audio, and documents.",
+    "url": "https://www.freeconvert.com/",
+    "status": "live",
+    "icon": "CONV"
+  },
+  {
+    "name": "Online-Convert",
+    "category": "Converters",
+    "description": "A long-running converter covering documents, images, audio, video, and archives.",
+    "url": "https://www.online-convert.com/",
+    "status": "live",
+    "icon": "CONV"
+  },
+  {
+    "name": "Convertio",
+    "category": "Converters",
+    "description": "A clean, fast converter supporting well over 300 file format pairs.",
+    "url": "https://convertio.co/",
+    "status": "live",
+    "icon": "CONV"
+  },
+  {
+    "name": "Aconvert",
+    "category": "Converters",
+    "description": "Straightforward online conversion across image, document, audio, and video formats.",
+    "url": "https://www.aconvert.com/",
+    "status": "live",
+    "icon": "CONV"
+  },
+  {
+    "name": "ezyZip",
+    "category": "Converters",
+    "description": "Handles both file conversion and zip/unzip archive tasks in the browser.",
+    "url": "https://www.ezyzip.com/",
+    "status": "live",
+    "icon": "CONV"
+  },
+  {
+    "name": "Vertopal",
+    "category": "Converters",
+    "description": "A newer, fast converter with a clean interface for common document and media formats.",
+    "url": "https://www.vertopal.com/",
+    "status": "live",
+    "icon": "CONV"
+  },
+  {
+    "name": "123apps",
+    "category": "Converters",
+    "description": "A suite of small single-purpose tools for converting, editing, and merging audio, video, and PDFs.",
+    "url": "https://123apps.com/",
+    "status": "live",
+    "icon": "CONV"
+  },
+  {
+    "name": "Convertfiles.com",
+    "category": "Converters",
+    "description": "A no-frills, long-standing file converter for common document and media formats.",
+    "url": "https://www.convertfiles.com/",
+    "status": "live",
+    "icon": "CONV"
+  },
+  {
+    "name": "HandBrake",
+    "category": "Audio/Video",
+    "description": "Open-source video transcoding — shrink and convert video files without losing much quality.",
+    "url": "https://handbrake.fr/",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "VLC",
+    "category": "Audio/Video",
+    "description": "Plays almost any media format without extra codecs, and doubles as a basic converter.",
+    "url": "https://www.videolan.org/vlc/",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "Audacity",
+    "category": "Audio/Video",
+    "description": "A free, capable multi-track audio editor for recording and cleaning up sound.",
+    "url": "https://www.audacityteam.org/",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "OBS Studio",
+    "category": "Audio/Video",
+    "description": "Open-source screen recording and live streaming with scene composition built in.",
+    "url": "https://obsproject.com/",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "Shotcut",
+    "category": "Audio/Video",
+    "description": "A free, cross-platform video editor with a straightforward timeline and wide format support.",
+    "url": "https://shotcut.org/",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "Kdenlive",
+    "category": "Audio/Video",
+    "description": "An open-source, non-linear video editor with multi-track editing and effects.",
+    "url": "https://kdenlive.org/",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "category": "Audio/Video",
+    "description": "Professional-grade color grading and editing, free version covers most needs.",
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "LMMS",
+    "category": "Audio/Video",
+    "description": "A free, open-source digital audio workstation for making music from scratch.",
+    "url": "https://lmms.io/",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "Ocenaudio",
+    "category": "Audio/Video",
+    "description": "A fast, lightweight audio editor good for quick trims and cleanup.",
+    "url": "https://www.ocenaudio.com/",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "Clipchamp",
+    "category": "Audio/Video",
+    "description": "A browser-based video editor from Microsoft, free tier covers basic editing.",
+    "url": "https://clipchamp.com/",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "CapCut Web",
+    "category": "Audio/Video",
+    "description": "A free browser video editor with templates built for short-form social clips.",
+    "url": "https://www.capcut.com/",
+    "status": "live",
+    "icon": "AV"
+  },
+  {
+    "name": "Bitwarden",
     "category": "Security",
-    "description": "Estimate password strength.",
-    "url": "https://www.security.org/how-secure-is-my-password/",
+    "description": "Open-source password manager with a genuinely usable free tier and browser extensions.",
+    "url": "https://bitwarden.com/",
     "status": "live",
     "icon": "SEC"
   },
   {
     "name": "Have I Been Pwned",
     "category": "Security",
-    "description": "Check whether an email appears in known data breaches.",
+    "description": "Checks whether your email or password has shown up in a known data breach.",
     "url": "https://haveibeenpwned.com/",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "URL Scanner",
-    "category": "Security",
-    "description": "Check URLs for known security threats.",
-    "url": "https://urlscan.io/",
     "status": "live",
     "icon": "SEC"
   },
   {
     "name": "VirusTotal",
     "category": "Security",
-    "description": "Analyze files and URLs with multiple security engines.",
+    "description": "Scans a file or URL against dozens of antivirus engines at once.",
     "url": "https://www.virustotal.com/",
     "status": "live",
     "icon": "SEC"
   },
   {
-    "name": "SSL Checker",
+    "name": "KeePass",
     "category": "Security",
-    "description": "Inspect SSL certificate configuration.",
-    "url": "https://www.sslshopper.com/ssl-checker.html",
+    "description": "A free, open-source offline password manager for people who'd rather not use the cloud.",
+    "url": "https://keepass.info/",
+    "status": "live",
+    "icon": "SEC"
+  },
+  {
+    "name": "ClamAV",
+    "category": "Security",
+    "description": "An open-source antivirus engine, widely used for scanning files and mail servers.",
+    "url": "https://www.clamav.net/",
+    "status": "live",
+    "icon": "SEC"
+  },
+  {
+    "name": "Malwarebytes Free",
+    "category": "Security",
+    "description": "On-demand malware scanning and removal, free tier for manual scans.",
+    "url": "https://www.malwarebytes.com/",
+    "status": "live",
+    "icon": "SEC"
+  },
+  {
+    "name": "Proton Mail",
+    "category": "Security",
+    "description": "End-to-end encrypted email with a free tier, based in privacy-friendly Switzerland.",
+    "url": "https://proton.me/mail",
+    "status": "live",
+    "icon": "SEC"
+  },
+  {
+    "name": "Signal",
+    "category": "Security",
+    "description": "Encrypted messaging and calls, open-source and free with no ads.",
+    "url": "https://signal.org/",
+    "status": "live",
+    "icon": "SEC"
+  },
+  {
+    "name": "Mozilla Monitor",
+    "category": "Security",
+    "description": "Checks an email address against known breaches and alerts you to new ones.",
+    "url": "https://monitor.mozilla.org/",
     "status": "live",
     "icon": "SEC"
   },
   {
     "name": "SSL Labs Test",
     "category": "Security",
-    "description": "Perform a detailed SSL/TLS server assessment.",
+    "description": "Grades a site's SSL/TLS configuration and flags outdated or weak settings.",
     "url": "https://www.ssllabs.com/ssltest/",
     "status": "live",
     "icon": "SEC"
   },
   {
-    "name": "Security Headers",
+    "name": "DNS Leak Test",
     "category": "Security",
-    "description": "Analyze security-related HTTP headers.",
-    "url": "https://securityheaders.com/",
+    "description": "Checks whether your VPN is actually hiding your DNS requests or leaking them.",
+    "url": "https://www.dnsleaktest.com/",
     "status": "live",
     "icon": "SEC"
   },
   {
-    "name": "Hash Generator",
-    "category": "Security",
-    "description": "Generate hashes from text.",
-    "url": "https://emn178.github.io/online-tools/",
+    "name": "TinyURL",
+    "category": "Utilities",
+    "description": "Shortens a long link into something short enough to say out loud.",
+    "url": "https://tinyurl.com/",
     "status": "live",
-    "icon": "SEC"
+    "icon": "UTIL"
   },
-  {
-    "name": "SHA256 Generator",
-    "category": "Security",
-    "description": "Generate SHA-256 hashes from text.",
-    "url": "https://emn178.github.io/online-tools/sha256.html",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "MD5 Generator",
-    "category": "Security",
-    "description": "Generate MD5 hashes from text.",
-    "url": "https://www.md5hashgenerator.com/",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "Base64 Encoder",
-    "category": "Security",
-    "description": "Encode data using Base64.",
-    "url": "https://www.base64encode.org/",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "Base64 Decoder",
-    "category": "Security",
-    "description": "Decode Base64 encoded data.",
-    "url": "https://www.base64decode.org/",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "JWT Debugger",
-    "category": "Security",
-    "description": "Inspect JSON Web Tokens.",
-    "url": "https://jwt.io/",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "CyberChef",
-    "category": "Security",
-    "description": "Perform encoding, decoding and data transformation operations.",
-    "url": "https://gchq.github.io/CyberChef/",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "DNS Checker",
-    "category": "Security",
-    "description": "Check DNS records and propagation.",
-    "url": "https://dnschecker.org/",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "DNS Lookup",
-    "category": "Security",
-    "description": "Look up DNS records for domains.",
-    "url": "https://mxtoolbox.com/DNSLookup.aspx",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "WHOIS Lookup",
-    "category": "Security",
-    "description": "Look up public domain registration information.",
-    "url": "https://who.is/",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "Email Security Test",
-    "category": "Security",
-    "description": "Inspect email authentication records and security configuration.",
-    "url": "https://mxtoolbox.com/emailhealth",
-    "status": "live",
-    "icon": "SEC"
-  },
-  {
-    "name": "SPF Checker",
-    "category": "Security",
-    "description": "Inspect SPF records for a domain.",
-    "url": "https://mxtoolbox.com/spf.aspx",
-    "status": "live",
-    "icon": "SEC"
-  },
-
-  {
-    "name": "Percentage Calculator",
-    "category": "Calculators",
-    "description": "Calculate percentages and percentage changes.",
-    "url": "https://www.calculator.net/percent-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Scientific Calculator",
-    "category": "Calculators",
-    "description": "Perform advanced mathematical calculations.",
-    "url": "https://www.calculator.net/scientific-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Age Calculator",
-    "category": "Calculators",
-    "description": "Calculate age from a date of birth.",
-    "url": "https://www.calculator.net/age-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "BMI Calculator",
-    "category": "Calculators",
-    "description": "Calculate body mass index from height and weight.",
-    "url": "https://www.calculator.net/bmi-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Loan Calculator",
-    "category": "Calculators",
-    "description": "Estimate loan payments and interest.",
-    "url": "https://www.calculator.net/loan-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Mortgage Calculator",
-    "category": "Calculators",
-    "description": "Estimate mortgage payments.",
-    "url": "https://www.calculator.net/mortgage-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Compound Interest Calculator",
-    "category": "Calculators",
-    "description": "Calculate compound interest and investment growth.",
-    "url": "https://www.calculator.net/compound-interest-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Simple Interest Calculator",
-    "category": "Calculators",
-    "description": "Calculate simple interest.",
-    "url": "https://www.calculator.net/simple-interest-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "GST Calculator",
-    "category": "Calculators",
-    "description": "Calculate GST-inclusive and GST-exclusive prices.",
-    "url": "https://cleartax.in/s/gst-calculator",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "EMI Calculator",
-    "category": "Calculators",
-    "description": "Calculate monthly loan EMI payments.",
-    "url": "https://www.icicibank.com/calculator/emi-calculator",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Tip Calculator",
-    "category": "Calculators",
-    "description": "Calculate tips and split restaurant bills.",
-    "url": "https://www.calculator.net/tip-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Discount Calculator",
-    "category": "Calculators",
-    "description": "Calculate discounts and final prices.",
-    "url": "https://www.calculator.net/discount-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Time Calculator",
-    "category": "Calculators",
-    "description": "Add and subtract hours, minutes and seconds.",
-    "url": "https://www.calculator.net/time-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Date Calculator",
-    "category": "Calculators",
-    "description": "Calculate dates and date differences.",
-    "url": "https://www.calculator.net/date-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Hours Calculator",
-    "category": "Calculators",
-    "description": "Calculate working hours and time differences.",
-    "url": "https://www.calculator.net/time-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Fraction Calculator",
-    "category": "Calculators",
-    "description": "Calculate operations involving fractions.",
-    "url": "https://www.calculator.net/fraction-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "GPA Calculator",
-    "category": "Calculators",
-    "description": "Calculate grade point averages.",
-    "url": "https://www.calculator.net/gpa-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Grade Calculator",
-    "category": "Calculators",
-    "description": "Calculate grades and required scores.",
-    "url": "https://www.calculator.net/grade-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Fuel Cost Calculator",
-    "category": "Calculators",
-    "description": "Estimate vehicle fuel costs for trips.",
-    "url": "https://www.calculator.net/fuel-cost-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-  {
-    "name": "Statistics Calculator",
-    "category": "Calculators",
-    "description": "Calculate common statistical measures.",
-    "url": "https://www.calculator.net/statistics-calculator.html",
-    "status": "live",
-    "icon": "CALC"
-  },
-
-  {
-    "name": "Length Converter",
-    "category": "Converters",
-    "description": "Convert between common length units.",
-    "url": "https://www.unitconverters.net/length-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Weight Converter",
-    "category": "Converters",
-    "description": "Convert weight and mass units.",
-    "url": "https://www.unitconverters.net/weight-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Temperature Converter",
-    "category": "Converters",
-    "description": "Convert Celsius, Fahrenheit and Kelvin.",
-    "url": "https://www.unitconverters.net/temperature-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Area Converter",
-    "category": "Converters",
-    "description": "Convert between area measurement units.",
-    "url": "https://www.unitconverters.net/area-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Volume Converter",
-    "category": "Converters",
-    "description": "Convert between volume units.",
-    "url": "https://www.unitconverters.net/volume-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Speed Converter",
-    "category": "Converters",
-    "description": "Convert speed between different units.",
-    "url": "https://www.unitconverters.net/speed-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Time Converter",
-    "category": "Converters",
-    "description": "Convert between units of time.",
-    "url": "https://www.unitconverters.net/time-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Data Storage Converter",
-    "category": "Converters",
-    "description": "Convert bytes, KB, MB, GB and other data units.",
-    "url": "https://www.unitconverters.net/data-storage-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Energy Converter",
-    "category": "Converters",
-    "description": "Convert between energy measurement units.",
-    "url": "https://www.unitconverters.net/energy-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Pressure Converter",
-    "category": "Converters",
-    "description": "Convert pressure measurement units.",
-    "url": "https://www.unitconverters.net/pressure-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Power Converter",
-    "category": "Converters",
-    "description": "Convert watts, horsepower and other power units.",
-    "url": "https://www.unitconverters.net/power-converter.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Currency Converter",
-    "category": "Converters",
-    "description": "Convert between world currencies.",
-    "url": "https://www.xe.com/currencyconverter/",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Number to Words",
-    "category": "Converters",
-    "description": "Convert numerical values into written words.",
-    "url": "https://www.numtoword.com/",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Roman Numeral Converter",
-    "category": "Converters",
-    "description": "Convert numbers to and from Roman numerals.",
-    "url": "https://www.rapidtables.com/convert/number/decimal-to-roman-numerals.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Binary Converter",
-    "category": "Converters",
-    "description": "Convert numbers between binary and decimal.",
-    "url": "https://www.rapidtables.com/convert/number/binary-to-decimal.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Hex Converter",
-    "category": "Converters",
-    "description": "Convert hexadecimal and decimal numbers.",
-    "url": "https://www.rapidtables.com/convert/number/hex-to-decimal.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "Octal Converter",
-    "category": "Converters",
-    "description": "Convert numbers between octal and decimal.",
-    "url": "https://www.rapidtables.com/convert/number/decimal-to-octal.html",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "CSV to JSON",
-    "category": "Converters",
-    "description": "Convert CSV data into JSON.",
-    "url": "https://www.convertcsv.com/csv-to-json.htm",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "JSON to CSV",
-    "category": "Converters",
-    "description": "Convert JSON data into CSV.",
-    "url": "https://www.convertcsv.com/json-to-csv.htm",
-    "status": "live",
-    "icon": "CONV"
-  },
-  {
-    "name": "CSV to XML",
-    "category": "Converters",
-    "description": "Convert CSV data into XML.",
-    "url": "https://www.convertcsv.com/csv-to-xml.htm",
-    "status": "live",
-    "icon": "CONV"
-  },
-
-  {
-    "name": "ZIP Extractor",
-    "category": "File",
-    "description": "Open and extract ZIP archives in your browser.",
-    "url": "https://extract.me/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "File Converter",
-    "category": "File",
-    "description": "Convert files between many common formats.",
-    "url": "https://convertio.co/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "Online Archive Converter",
-    "category": "File",
-    "description": "Extract files from common archive formats.",
-    "url": "https://extract.me/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "DOCX Converter",
-    "category": "File",
-    "description": "Convert DOCX files to other document formats.",
-    "url": "https://convertio.co/docx-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "XLSX Converter",
-    "category": "File",
-    "description": "Convert spreadsheet files between formats.",
-    "url": "https://convertio.co/xlsx-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "PPTX Converter",
-    "category": "File",
-    "description": "Convert presentation files between formats.",
-    "url": "https://convertio.co/pptx-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "TXT to PDF",
-    "category": "File",
-    "description": "Convert plain text files into PDF documents.",
-    "url": "https://www.online-convert.com/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "RTF Converter",
-    "category": "File",
-    "description": "Convert Rich Text Format documents.",
-    "url": "https://convertio.co/rtf-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "ODT Converter",
-    "category": "File",
-    "description": "Convert OpenDocument text files.",
-    "url": "https://convertio.co/odt-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "ODS Converter",
-    "category": "File",
-    "description": "Convert OpenDocument spreadsheet files.",
-    "url": "https://convertio.co/ods-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "CSV Converter",
-    "category": "File",
-    "description": "Convert CSV files to other formats.",
-    "url": "https://convertio.co/csv-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "EPUB Converter",
-    "category": "File",
-    "description": "Convert EPUB ebooks into other formats.",
-    "url": "https://convertio.co/epub-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "MOBI Converter",
-    "category": "File",
-    "description": "Convert MOBI ebook files.",
-    "url": "https://convertio.co/mobi-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "FB2 Converter",
-    "category": "File",
-    "description": "Convert FictionBook ebook files.",
-    "url": "https://convertio.co/fb2-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "Markdown Converter",
-    "category": "File",
-    "description": "Convert Markdown documents to other formats.",
-    "url": "https://www.markdowntopdf.com/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "HTML Converter",
-    "category": "File",
-    "description": "Convert HTML files into other formats.",
-    "url": "https://convertio.co/html-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "XML Converter",
-    "category": "File",
-    "description": "Convert XML files into other formats.",
-    "url": "https://convertio.co/xml-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "JSON Converter",
-    "category": "File",
-    "description": "Convert JSON files into other formats.",
-    "url": "https://convertio.co/json-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "Image File Converter",
-    "category": "File",
-    "description": "Convert image files between common formats.",
-    "url": "https://convertio.co/image-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-  {
-    "name": "Audio File Converter",
-    "category": "File",
-    "description": "Convert audio files between popular formats.",
-    "url": "https://convertio.co/audio-converter/",
-    "status": "live",
-    "icon": "FILE"
-  },
-
   {
     "name": "QR Code Generator",
-    "category": "Productivity",
-    "description": "Create QR codes for URLs, text and contact information.",
+    "category": "Utilities",
+    "description": "Creates a scannable QR code for a link, text, or contact card in seconds.",
     "url": "https://www.qr-code-generator.com/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "UTIL"
   },
   {
-    "name": "QR Code Scanner",
-    "category": "Productivity",
-    "description": "Scan QR codes using a browser.",
-    "url": "https://webqr.com/",
+    "name": "WeTransfer",
+    "category": "Utilities",
+    "description": "Send large files by link, free up to 2GB per transfer, no account needed.",
+    "url": "https://wetransfer.com/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "UTIL"
   },
   {
-    "name": "Barcode Generator",
-    "category": "Productivity",
-    "description": "Generate barcodes for products and data.",
-    "url": "https://barcode.tec-it.com/",
+    "name": "Send Anywhere",
+    "category": "Utilities",
+    "description": "Transfers files directly between devices using a one-time six-digit key.",
+    "url": "https://send-anywhere.com/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "UTIL"
   },
   {
-    "name": "UUID Generator",
-    "category": "Productivity",
-    "description": "Generate unique UUID identifiers.",
-    "url": "https://www.uuidgenerator.net/",
+    "name": "Speedtest by Ookla",
+    "category": "Utilities",
+    "description": "The standard quick check for real-world download, upload, and ping speeds.",
+    "url": "https://www.speedtest.net/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "UTIL"
   },
   {
-    "name": "Random Number Generator",
-    "category": "Productivity",
-    "description": "Generate random numbers within a chosen range.",
-    "url": "https://www.random.org/integers/",
+    "name": "Bitly",
+    "category": "Utilities",
+    "description": "Link shortening with click tracking, free tier covers casual use.",
+    "url": "https://bitly.com/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "UTIL"
   },
   {
-    "name": "Random String Generator",
-    "category": "Productivity",
-    "description": "Generate random strings for testing and development.",
-    "url": "https://www.random.org/strings/",
+    "name": "Google Drive",
+    "category": "Utilities",
+    "description": "15GB of free cloud storage that syncs across every device automatically.",
+    "url": "https://drive.google.com/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "UTIL"
   },
   {
-    "name": "Lorem Ipsum Generator",
-    "category": "Productivity",
-    "description": "Generate placeholder content.",
-    "url": "https://www.lipsum.com/",
+    "name": "Dropbox",
+    "category": "Utilities",
+    "description": "Cloud file sync and sharing, free tier good for smaller everyday backups.",
+    "url": "https://www.dropbox.com/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "UTIL"
   },
   {
-    "name": "Pomodoro Timer",
-    "category": "Productivity",
-    "description": "Use timed work and break sessions.",
-    "url": "https://pomofocus.io/",
+    "name": "Wormhole",
+    "category": "Utilities",
+    "description": "End-to-end encrypted file transfer up to 10GB, no account or install needed.",
+    "url": "https://wormhole.app/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "UTIL"
   },
   {
-    "name": "Online Stopwatch",
-    "category": "Productivity",
-    "description": "Run a stopwatch directly in the browser.",
-    "url": "https://www.online-stopwatch.com/",
+    "name": "file.io",
+    "category": "Utilities",
+    "description": "Generates a one-time download link for a file that deletes itself after it's fetched.",
+    "url": "https://www.file.io/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "UTIL"
   },
   {
-    "name": "Countdown Timer",
-    "category": "Productivity",
-    "description": "Create countdown timers for events and tasks.",
-    "url": "https://www.timeanddate.com/countdown/",
+    "name": "Fast.com",
+    "category": "Utilities",
+    "description": "Netflix's one-click internet speed test, no ads or extra steps.",
+    "url": "https://fast.com/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "UTIL"
   },
   {
-    "name": "World Clock",
-    "category": "Productivity",
-    "description": "Check current times around the world.",
-    "url": "https://www.timeanddate.com/worldclock/",
+    "name": "Linux Mint",
+    "category": "Open Source",
+    "description": "A polished, beginner-friendly Linux distribution built on Ubuntu.",
+    "url": "https://linuxmint.com/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "OSS"
   },
   {
-    "name": "Time Zone Converter",
-    "category": "Productivity",
-    "description": "Compare times across different time zones.",
-    "url": "https://www.timeanddate.com/worldclock/meeting.html",
+    "name": "LibreOffice",
+    "category": "Open Source",
+    "description": "A free, full-featured office suite — documents, spreadsheets, presentations — compatible with Word and Excel files.",
+    "url": "https://www.libreoffice.org/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "OSS"
   },
   {
-    "name": "Calendar Generator",
-    "category": "Productivity",
-    "description": "Generate printable calendars.",
-    "url": "https://www.timeanddate.com/calendar/",
+    "name": "GIMP",
+    "category": "Open Source",
+    "description": "A powerful, free raster image editor often compared to Photoshop.",
+    "url": "https://www.gimp.org/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "OSS"
   },
   {
-    "name": "Meeting Planner",
-    "category": "Productivity",
-    "description": "Find suitable meeting times across time zones.",
-    "url": "https://www.timeanddate.com/worldclock/meeting.html",
+    "name": "Inkscape",
+    "category": "Open Source",
+    "description": "A free, open-source vector graphics editor for logos, icons, and illustrations.",
+    "url": "https://inkscape.org/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "OSS"
   },
   {
-    "name": "Online Notepad",
-    "category": "Productivity",
-    "description": "Write and temporarily store notes in the browser.",
-    "url": "https://anotepad.com/",
+    "name": "Blender",
+    "category": "Open Source",
+    "description": "Free 3D modeling, animation, and rendering software used well beyond hobbyist projects.",
+    "url": "https://www.blender.org/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "OSS"
   },
   {
-    "name": "QR WiFi Generator",
-    "category": "Productivity",
-    "description": "Create QR codes for Wi-Fi credentials.",
-    "url": "https://qifi.org/",
+    "name": "Visual Studio Code",
+    "category": "Open Source",
+    "description": "A free, extensible code editor that's become the default for a huge share of developers.",
+    "url": "https://code.visualstudio.com/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "OSS"
   },
   {
-    "name": "Favicon Generator",
-    "category": "Productivity",
-    "description": "Generate favicon packages for websites.",
-    "url": "https://favicon.io/",
+    "name": "Firefox",
+    "category": "Open Source",
+    "description": "An open-source browser built by a non-profit, with strong privacy defaults.",
+    "url": "https://www.mozilla.org/firefox/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "OSS"
   },
   {
-    "name": "Screenshot Tool",
-    "category": "Productivity",
-    "description": "Create quick screenshots and browser captures.",
-    "url": "https://screely.com/",
+    "name": "Thunderbird",
+    "category": "Open Source",
+    "description": "A free, open-source desktop email client with calendar and add-on support.",
+    "url": "https://www.thunderbird.net/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "OSS"
   },
   {
-    "name": "Online Whiteboard",
-    "category": "Productivity",
-    "description": "Create and collaborate on visual boards.",
-    "url": "https://excalidraw.com/",
+    "name": "7-Zip",
+    "category": "Open Source",
+    "description": "Free, open-source file archiving with high compression ratios and broad format support.",
+    "url": "https://www.7-zip.org/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "OSS"
   },
   {
-    "name": "Diagram Maker",
-    "category": "Productivity",
-    "description": "Create diagrams and flowcharts online.",
-    "url": "https://app.diagrams.net/",
+    "name": "Krita",
+    "category": "Open Source",
+    "description": "A free, open-source digital painting program built for illustrators and concept artists.",
+    "url": "https://krita.org/",
     "status": "live",
-    "icon": "PROD"
+    "icon": "OSS"
+  },
+  {
+    "name": "Nextcloud",
+    "category": "Open Source",
+    "description": "Self-hostable, open-source cloud storage and collaboration — your own private Dropbox.",
+    "url": "https://nextcloud.com/",
+    "status": "live",
+    "icon": "OSS"
+  },
+  {
+    "name": "WordPress.org",
+    "category": "Open Source",
+    "description": "The open-source, self-hosted version of the software behind a huge share of the web.",
+    "url": "https://wordpress.org/",
+    "status": "live",
+    "icon": "OSS"
+  },
+  {
+    "name": "Git",
+    "category": "Open Source",
+    "description": "The open-source version control system nearly all modern software is built with.",
+    "url": "https://git-scm.com/",
+    "status": "live",
+    "icon": "OSS"
+  },
+  {
+    "name": "FileZilla",
+    "category": "Open Source",
+    "description": "A free, open-source FTP/SFTP client for uploading files to a server.",
+    "url": "https://filezilla-project.org/",
+    "status": "live",
+    "icon": "OSS"
+  },
+  {
+    "name": "Joplin",
+    "category": "Open Source",
+    "description": "An open-source note-taking app with end-to-end encrypted sync, no subscription required.",
+    "url": "https://joplinapp.org/",
+    "status": "live",
+    "icon": "OSS"
   }
 ]

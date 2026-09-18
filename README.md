@@ -51,18 +51,16 @@ live site updates automatically within a minute, no redeploy step needed.
 AdSense reviews the whole site, not just one page. This site ships with the basics
 covered, but a few things are on you before you apply:
 
-- [ ] **Real content**: `tools.json` currently has your two real live sites
-      (`justinnews.tech`, `informedmedia.me`) marked `"live"` with real URLs, and your
-      apps/browser tools marked `"coming soon"` with an empty `url` (so nothing links to
-      a 404). As each tool actually goes live, change its `status` to `"live"` and fill
-      in the real `url`. AdSense rejects sites that look empty or that link out to
-      nothing.
-  - `about.html` has two `<em>[add Play Store / web link]</em>` placeholders for Informed
-    and TicketStub — replace those with the real listing URLs once you have them handy.
+- [x] **Real content**: `tools.json` now has 142 real, hand-verified tools across 13
+      categories (2 are your own — `justinnews.tech`, `informedmedia.me`, marked
+      `"Featured"` — the rest are well-established third-party tools with real, working
+      URLs, 10–15 per category). No placeholders anywhere on the site. If you add more
+      later, keep the same pattern: real name, real URL, one honest sentence, correct
+      category — and verify the URL actually works before committing it.
 - [ ] **Custom domain** — a `github.io` subdomain can work, but a custom domain reads
       more credibly to reviewers and is easy to add (see above).
 - [ ] **`ads.txt`** — already included with your AdSense publisher ID
-      (`pub-9715275055190011`, reused from your existing AdSense account). If this site
+      (`pub-7901268014546748`). If this site
       isn't meant to run under that same account, swap the ID in `ads.txt` and in
       `config.json`'s `adsensePublisherId`.
 - [ ] **Privacy policy** — included (`privacy.html`), already mentions AdSense/cookies.
